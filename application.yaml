@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/shaytshikvashvili/WeatherApp.git
+    repoURL: https://github.com/shaytshikvashvili/WeatherApp-CD.git
     targetRevision: HEAD
     path: dev
   destination: 

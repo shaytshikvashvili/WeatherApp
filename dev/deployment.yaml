@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: shayts/my-project
+        image: IMAGE_NAME
         ports:
         - containerPort: 8080
