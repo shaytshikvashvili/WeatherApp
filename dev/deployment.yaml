@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: IMAGE_NAME
+        image: shayts/weatherapp:{{ steps.meta.outputs.version }}
         ports:
         - containerPort: 8080
